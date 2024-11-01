@@ -1,5 +1,8 @@
 # Linux-Project--Website-Database-Hacking-using-sqlmap-tool-
 Website Database Hacking using sqlmap tool 
+
+We will be working on a sample website https://testphp.vulnweb.com/   to demonstrate SQL injection techniques, attacking a live website without permission is illegal. This https://testphp.vulnweb.com/  website we'll use is oneweb.com, which is provided by Acunetix. On this https://testphp.vulnweb.com/ , navigate to the URL.
+
 Identify Databases:
 sqlmap -u "testphp.vulneb.com/artists.php?artist=1" --dbs
 This command checks the website for SQL injection vulnerabilities and lists the names of databases if found.
